@@ -1,0 +1,16 @@
+*{
+    font-family: Helvetica neue, sans-serif;
+}
+.boekSelectie__img{
+    max-width: 100px;
+}
+.boekSelectie__rij--accent{
+    background: #96fbff
+}
+.boekSelectie__cel{
+    padding: 1em;
+    vertical-align: top;
+}
+.boekSelectie__cel:nth-child(1){
+    padding: 0;
+}
