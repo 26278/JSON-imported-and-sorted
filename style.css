@@ -1,11 +1,9 @@
 *{
     font-family: Helvetica neue, sans-serif;
 }
-.boekSelectie__img{
-    max-width: 100px;
-}
+
 .boekSelectie__rij--accent{
-    background: #96fbff
+    background: #96fbff;
 }
 .boekSelectie__cel{
     padding: 1em;
@@ -13,4 +11,26 @@
 }
 .boekSelectie__cel:nth-child(1){
     padding: 0;
+}
+
+/* layout van de sections */
+.boekSelectie{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1em 0;
+}
+.boekSelectie__img{
+    width: 20%;
+}
+.boekSelectie__titel{
+    display: block;
+    box-sizing: border-box;
+    padding-left: 1em;
+    width: 60%;
+}
+.boekSelectie__prijs{
+    font-size: 2em;
+    margin-bottom: 1em;
+    width: 20%;
 }
