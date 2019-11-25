@@ -6,6 +6,13 @@ xmlhttp.onreadystatechange = function(){
     if(this.readyState == 4 && this.status == 200){
         sorteerBoekObject.data = JSON.parse(this.responseText);
         sorteerBoekObject.addJSDate();
+        // De data moet ook een eigenschap hebben waarbij de titels in kapitalen staan
+        // zodat daarop gesorteerd kan worden.
+        sorteerBoekObject.data.forEach(boek => {
+            boek.titelUpper = boek.titel.toUpperCase();
+            // Ook de achternaam van de eerste auteur als eigenschap in data toevoegen
+            boek.sortAuteur = boek.auteur[0];
+        });
         sorteerBoekObject.sorteren();
     }
 }
@@ -72,6 +79,14 @@ const makeSummary = (array) => {
     return string;
 }
 
+//Functie die de titel herstelt
+const keerTextOm = (string) => {
+    if(string.indexOf('*') != -1) {
+        let array = string.split('*');
+        string = array[1] + ' ' + array[0];
+    }
+    return string;
+}
 
 //Object dat de boeken uitvoert en sorteert aanmaken (methods)
 //Eigenschappen: data sorteerkenmerk
@@ -115,21 +130,36 @@ let sorteerBoekObject = {
             let afbeelding = document.createElement('img');
             afbeelding.className = 'boekSelectie__img';
             afbeelding.setAttribute('src', boek.cover);
-            afbeelding.setAttribute('alt', boek.titel);
+            afbeelding.setAttribute('alt', keerTextOm(boek.titel));
 
             //titel maken
             let titel = document.createElement('h3');
             titel.className = 'boekSelectie__titel';
-            titel.textContent = boek.titel;
+            titel.textContent = keerTextOm(boek.titel);
+
+            // Auteurs toevoegen
+            let auteurs = document.createElement('p');
+            auteurs.className = 'boekSelectie__auteur';
+            // Voor en achternaam omdraaien
+            boek.auteur[0] = keerTextOm(boek.auteur[0]);
+            // Auteurs staan in een array, deze zetten we om in een string.
+            auteurs.textContent = makeSummary(boek.auteur);
+
+            //overige info maken
+            let overig = document.createElement('p');
+            overig.className = 'boekSelectie__overig';
+            overig.textContent =  boek.uitgave + ' | aantal pagina\'s ' + boek.paginas + ' | taal: ' + boek.taal + ' | eam: ' + boek.ean;
 
             //prijs maken
             let prijs = document.createElement('div');
             prijs.className = "boekSelectie__prijs";
-            prijs.textContent = "€ " + boek.prijs;
+            prijs.textContent = boek.prijs.toLocaleString('nl-NL', {currency: 'EUR', style: 'currency'});
 
             // Het element toevoegen
             sectie.appendChild(afbeelding);
-            sectie.appendChild(titel);
+            main.appendChild(titel);
+            main.appendChild(auteurs);
+            main.appendChild(overig);
             sectie.appendChild(main);
             sectie.appendChild(prijs);
             document.getElementById("boeken").appendChild(sectie);
