@@ -7,7 +7,7 @@
       "paginas": 104,
       "taal": "Nederlands",
       "ean": "9789078211433",
-      "prijs": "99,95"
+      "prijs": 99.95
    },
    {
       "titel": "Front-End Web Development, a Complete Guide",
@@ -17,7 +17,7 @@
       "ean": "9780655315254",
       "paginas": 274,
       "taal": "Engels",
-      "prijs": "99,95"
+      "prijs": 99.95
    },
    {
       "titel": "Delft design guide",
@@ -27,7 +27,7 @@
       "ean": "9789063693275",
       "paginas": 176,
       "taal": "Engels",
-      "prijs": "99,95"
+      "prijs": 99.95
    },
    {
       "titel": "Huis vol leugens",
@@ -37,7 +37,7 @@
       "ean": "9789026343315",
       "paginas": 400,
       "taal": "Nederlands",
-      "prijs": "99,95"
+      "prijs": 99.95
    },
    {
       "titel": "Front-End Web Development",
@@ -47,7 +47,7 @@
       "paginas": 300,
       "taal": "Engels",
       "ean": "9780134433943",
-      "prijs": "99,95"
+      "prijs": 99.95
    },
    {
       "titel": "Dog Man",
@@ -57,7 +57,7 @@
       "paginas": 231,
       "taal": "Nederlands",
       "ean": "9789492899019",
-      "prijs": "99,95"
+      "prijs": 99.95
    },
    {
       "titel": "Learning Bootstrap 4",
@@ -67,7 +67,7 @@
       "paginas": 246,
       "taal": "Engels",
       "ean": "9781785881008",
-      "prijs": "99,95"
+      "prijs": 99.95
    },
    {
       "titel": "VEG",
@@ -77,7 +77,7 @@
       "paginas": 312,
       "taal": "Nederlands",
       "ean": "9789021573397",
-      "prijs": "99,95"
+      "prijs": 99.95
    },
    {
       "titel": "Zij die moet sterven",
@@ -87,7 +87,7 @@
       "paginas": 304,
       "taal": "Nederlands",
       "ean": "9789056725723",
-      "prijs": "99,95"
+      "prijs": 99.95
    },
    {
       "titel": "Geschiedenis van Nederland in 100 oude kaarten*De",
@@ -97,7 +97,7 @@
       "paginas": 400,
       "taal": "Nederlands",
       "ean": "9789401459075",
-      "prijs": "99,95"
+      "prijs": 99.95
    },
    {
       "titel": "Wees onzichtbaar",
@@ -107,7 +107,7 @@
       "paginas": 597,
       "taal": "Nederlands",
       "ean": "9789041422903",
-      "prijs": "99,95"
+      "prijs": 99.95
    },
    {
       "titel": "Houden van dingen die niet perfect zijn",
@@ -117,7 +117,7 @@
       "paginas": 272,
       "taal": "Nederlands",
       "ean": "9789022583722",
-      "prijs": "99,95"
+      "prijs": 99.95
    },
    {
       "titel": "Zeven Zussen*De",
@@ -127,7 +127,7 @@
       "paginas": 592,
       "taal": "Nederlands",
       "ean": "9789401609371",
-      "prijs": "99,95"
+      "prijs": 99.95
    },
    {
       "titel": "Hands-On Full-Stack Web Development with ASP.NET Core",
@@ -137,7 +137,7 @@
       "paginas": 478,
       "taal": "Engels",
       "ean": "9781788622882",
-      "prijs": "99,95"
+      "prijs": 99.95
    },
    {
       "titel": "subtile art of not giving a fuck*The ",
@@ -147,7 +147,7 @@
       "paginas": 212,
       "taal": "Engels",
       "ean": "9780062641540",
-      "prijs": "99,95"
+      "prijs": 99.95
    },
    {
       "titel": "Everything is fucked, a book about hope",
@@ -157,6 +157,6 @@
       "paginas": 288,
       "taal": "Engels",
       "ean": "9780062888464",
-      "prijs": "99,95"
+      "prijs": 99.95
    }
 ]

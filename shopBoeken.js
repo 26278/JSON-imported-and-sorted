@@ -88,6 +88,46 @@ const keerTextOm = (string) => {
     return string;
 }
 
+//Winkelwagen object
+//Toegevoegde items bevatten
+//Methode om items toe te passen
+//Methode om items te verwijderen
+
+let winkelwagen = {
+    items: [],
+
+    takeItemsFrom: function(){
+      let order;
+      if (localStorage.getItem('orderedBooks') == null){
+          order = [];
+      } else {
+          order = JSON.parse(localStorage.getItem('orderedBooks'));
+          order.forEach(item => {
+              this.items.push(item);
+          })
+          this.uitvoeren();
+      }
+    return order;
+    },
+    toevoegen: function (el) {
+        this.items = this.takeItemsFrom();
+        this.items.push(el);
+        localStorage.setItem('orderedBooks', JSON.stringify(this.items));
+        this.uitvoeren();
+    },
+    uitvoeren: function () {
+        if (this.items.length > 0 ){
+            document.querySelector('.winkelwagen__aantal').innerHTML= this.items.length;
+        } else {
+            document.querySelector('.winkelwagen__aantal').innerHTML= "";
+        }
+
+    }
+};
+
+winkelwagen.takeItemsFrom();
+
+
 //Object dat de boeken uitvoert en sorteert aanmaken (methods)
 //Eigenschappen: data sorteerkenmerk
 //methods: sorteren() en uitvoeren()
@@ -155,12 +195,22 @@ let sorteerBoekObject = {
             prijs.className = "boekSelectie__prijs";
             prijs.textContent = boek.prijs.toLocaleString('nl-NL', {currency: 'EUR', style: 'currency'});
 
+            //button toevoegen
+            let knop = document.createElement("button");
+            knop.className = 'boekSelectie__knop';
+            knop.innerHTML = 'Voeg toe aan<br>winkelwagen';
+            knop.addEventListener('click', () => {
+                winkelwagen.toevoegen(boek);
+            });
+
+
             // Het element toevoegen
             sectie.appendChild(afbeelding);
             main.appendChild(titel);
             main.appendChild(auteurs);
             main.appendChild(overig);
             sectie.appendChild(main);
+            prijs.appendChild(knop);
             sectie.appendChild(prijs);
             document.getElementById("boeken").appendChild(sectie);
         })

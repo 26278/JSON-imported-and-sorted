@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Sorteer Boeken</title>
+    <title>Bestelpagina</title>
     <meta name="author" content="Jochem de Wit">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
@@ -11,23 +11,9 @@
 <body lang="nl" class="body">
     <div id="headerBackground"></div>
     <header class="header">
-        <h1 class="header__title">Een selectie van boeken</h1>
+        <h1 class="header__title">Uw bestelling</h1>
         <div class="header__options">
-            <select id="kenmerk">
-                <option value="titelUpper">Titel</option>
-                <option value="sortAuteur">Auteur(s)</option>
-                <option value="JSDate">Datum uitgave</option>
-                <option value="paginas">Aantal bladzijden</option>
-                <option value="taal">Taal</option>
-                <option value="prijs">Prijs</option>
-            </select>
-
-            <label>
-                <input type="radio" name="oplopend" value="1">Oplopend
-            </label>
-            <label>
-                <input type="radio" name="oplopend" value="-1">Aflopend
-            </label>
+            <a class="options__terug" href="index.html">Verder winkelen</a>
             <a href="bestelpagina.html">
                 <div class="winkelwagen">
                     <span class="winkelwagen__aantal"></span>
@@ -35,8 +21,9 @@
             </a>
         </div>
     </header>
-    <div id="boeken"></div>
-    <div id="footerBackground"></div>
+
+    <div id="uitvoer"></div>
+
     <footer class="footer">
         <div class="footer__validatie">
             <a href="http://validator.w3.org/check?uri=referer" target="_blank" class="validatie__icon">
@@ -48,6 +35,7 @@
         </div>
     </footer>
 
-<script src="shopBoeken.js"></script>
+    <script src="bestelpagina.js"></script>
+
 </body>
 </html>
