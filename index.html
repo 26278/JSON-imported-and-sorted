@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
 </head>
+<<<<<<< Updated upstream
 <body lang="nl">
     <h1>Een selectie van boeken</h1>
     <select id="kenmerk">
@@ -31,6 +32,46 @@
         <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
             <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS">
         </a>
+=======
+<body lang="nl" class="body">
+    <div id="headerBackground"></div>
+    <header class="header">
+        <h1 class="header__title">Een selectie van boeken</h1>
+        <div class="header__options">
+            <select id="kenmerk">
+                <option value="titelUpper">Titel</option>
+                <option value="sortAuteur">Auteur(s)</option>
+                <option value="JSDate">Datum uitgave</option>
+                <option value="paginas">Aantal bladzijden</option>
+                <option value="taal">Taal</option>
+                <option value="prijs">Prijs</option>
+            </select>
+
+            <label>
+                <input type="radio" name="oplopend" value="1">Oplopend
+            </label>
+            <label>
+                <input type="radio" name="oplopend" value="-1">Aflopend
+            </label>
+            <a href="bestelpagina.html">
+                <div class="winkelwagen">
+                    <span class="winkelwagen__aantal"></span>
+                </div>
+            </a>
+        </div>
+    </header>
+    <div id="boeken"></div>
+    <div id="footerBackground"></div>
+    <footer class="footer">
+        <div class="footer__validatie">
+            <a href="http://validator.w3.org/check?uri=referer" target="_blank" class="validatie__icon">
+                <img src="https://blanken5.home.xs4all.nl/afb/valid-html5-blue.png" alt="Valide HTML5">
+            </a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank" class="validatie__icon">
+                <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS">
+            </a>
+        </div>
+>>>>>>> Stashed changes
     </footer>
 
 <script src="sorteerBoeken.js"></script>

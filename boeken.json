@@ -6,7 +6,12 @@
       "uitgave": "mei 2019",
       "paginas": 104,
       "taal": "Nederlands",
+<<<<<<< Updated upstream
       "ean": "9789078211433"
+=======
+      "ean": "9789078211433",
+      "prijs": 99.95
+>>>>>>> Stashed changes
    },
    {
       "titel": "Front-End Web Development a Complete Guide",
@@ -15,7 +20,12 @@
       "uitgave": "juli 2018",
       "ean": "9780655315254",
       "paginas": 274,
+<<<<<<< Updated upstream
       "taal": "Engels"
+=======
+      "taal": "Engels",
+      "prijs": 99.95
+>>>>>>> Stashed changes
    },
    {
       "titel": "Delft design guide",
@@ -24,7 +34,12 @@
       "uitgave": "september 2013",
       "ean": "9789063693275",
       "paginas": 176,
+<<<<<<< Updated upstream
       "taal": "Engels"
+=======
+      "taal": "Engels",
+      "prijs": 99.95
+>>>>>>> Stashed changes
    },
    {
       "titel": "Huis vol leugens",
@@ -33,7 +48,12 @@
       "uitgave": "juli 2019",
       "ean": "9789026343315",
       "paginas": 400,
+<<<<<<< Updated upstream
       "taal": "Nederlands"
+=======
+      "taal": "Nederlands",
+      "prijs": 99.95
+>>>>>>> Stashed changes
    },
    {
       "titel": "Front-End Web Development",
@@ -42,7 +62,12 @@
       "uitgave": "juni 2016",
       "paginas": 300,
       "taal": "Engels",
+<<<<<<< Updated upstream
       "ean": "9780134433943"
+=======
+      "ean": "9780134433943",
+      "prijs": 99.95
+>>>>>>> Stashed changes
    },
    {
       "titel": "Dog Man",
@@ -51,7 +76,12 @@
       "uitgave": "juni 2018",
       "paginas": 231,
       "taal": "Nederlands",
+<<<<<<< Updated upstream
       "ean": "9789492899019"
+=======
+      "ean": "9789492899019",
+      "prijs": 99.95
+>>>>>>> Stashed changes
    },
    {
       "titel": "Learning Bootstrap 4",
@@ -60,7 +90,12 @@
       "uitgave": "januari 2016",
       "paginas": 246,
       "taal": "Engels",
+<<<<<<< Updated upstream
       "ean": "9781785881008"
+=======
+      "ean": "9781785881008",
+      "prijs": 99.95
+>>>>>>> Stashed changes
    },
    {
       "titel": "VEG",
@@ -69,7 +104,12 @@
       "uitgave": "augustus 2019",
       "paginas": 312,
       "taal": "Nederlands",
+<<<<<<< Updated upstream
       "ean": "9789021573397"
+=======
+      "ean": "9789021573397",
+      "prijs": 99.95
+>>>>>>> Stashed changes
    },
    {
       "titel": "Zij die moet sterven",
@@ -78,7 +118,12 @@
       "uitgave": "augustus 2019",
       "paginas": 304,
       "taal": "Nederlands",
+<<<<<<< Updated upstream
       "ean": "9789056725723"
+=======
+      "ean": "9789056725723",
+      "prijs": 99.95
+>>>>>>> Stashed changes
    },
    {
       "titel": "De Geschiedenis van Nederland in 100 oude kaarten",
@@ -87,7 +132,12 @@
       "uitgave": "juni 2019",
       "paginas": 400,
       "taal": "Nederlands",
+<<<<<<< Updated upstream
       "ean": "9789401459075"
+=======
+      "ean": "9789401459075",
+      "prijs": 99.95
+>>>>>>> Stashed changes
    },
    {
       "titel": "Wees onzichtbaar",
@@ -96,7 +146,12 @@
       "uitgave": "mei 2019",
       "paginas": 597,
       "taal": "Nederlands",
+<<<<<<< Updated upstream
       "ean": "9789041422903"
+=======
+      "ean": "9789041422903",
+      "prijs": 99.95
+>>>>>>> Stashed changes
    },
    {
       "titel": "Houden van dingen die niet perfect zijn",
@@ -105,7 +160,12 @@
       "uitgave": "januari 2019",
       "paginas": 272,
       "taal": "Nederlands",
+<<<<<<< Updated upstream
       "ean": "9789022583722"
+=======
+      "ean": "9789022583722",
+      "prijs": 99.95
+>>>>>>> Stashed changes
    },
    {
       "titel": "De Zeven Zussen",
@@ -114,7 +174,12 @@
       "uitgave": "juni 2018",
       "paginas": 592,
       "taal": "Nederlands",
+<<<<<<< Updated upstream
       "ean": "9789401609371"
+=======
+      "ean": "9789401609371",
+      "prijs": 99.95
+>>>>>>> Stashed changes
    },
    {
       "titel": "Hands-On Full-Stack Web Development with ASP.NET Core",
@@ -123,7 +188,12 @@
       "uitgave": "oktober 2018",
       "paginas": 478,
       "taal": "Engels",
+<<<<<<< Updated upstream
       "ean": "9781788622882"
+=======
+      "ean": "9781788622882",
+      "prijs": 99.95
+>>>>>>> Stashed changes
    },
    {
       "titel": "The subtje art of not giving a fuck",
@@ -132,7 +202,12 @@
       "uitgave": "januari 2016",
       "paginas": 212,
       "taal": "Engels",
+<<<<<<< Updated upstream
       "ean": "9780062641540"
+=======
+      "ean": "9780062641540",
+      "prijs": 99.95
+>>>>>>> Stashed changes
    },
    {
       "titel": "Everything is fucked, a book about hope",
@@ -141,6 +216,11 @@
       "uitgave": "mei 2019",
       "paginas": 288,
       "taal": "Engels",
+<<<<<<< Updated upstream
       "ean": "9780062888464"
+=======
+      "ean": "9780062888464",
+      "prijs": 99.95
+>>>>>>> Stashed changes
    }
 ]
